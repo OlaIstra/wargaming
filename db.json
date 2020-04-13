@@ -1,0 +1,284 @@
+{
+  "tanks": [
+    {
+      "id": "A01_T1_Cunningham",
+      "nation": "usa",
+      "name": "T1 Cunningham",
+      "tier": 1,
+      "premium": false
+    },
+    {
+      "id": "Pl08_50TP_prototyp",
+      "nation": "poland",
+      "name": "50TP prototyp",
+      "tier": 8,
+      "premium": false
+    },
+    {
+      "id": "Ch06_Renault_NC31",
+      "nation": "china",
+      "name": "Renault NC-31",
+      "tier": 1,
+      "premium": false
+    },
+    {
+      "id": "A99_T92_LT",
+      "nation": "usa",
+      "name": "T92",
+      "tier": 8,
+      "premium": true
+    },
+    {
+      "id": "Cz01_Skoda_T40",
+      "nation": "czech",
+      "name": "Škoda T 40",
+      "tier": 6,
+      "premium": true
+    },
+    {
+      "id": "A62_Ram-II",
+      "nation": "usa",
+      "name": "Ram II",
+      "tier": 5,
+      "premium": false
+    },
+    {
+      "id": "R11_MS-1",
+      "nation": "ussr",
+      "name": "MS-1",
+      "tier": 1,
+      "premium": false
+    },
+    {
+      "id": "GB19_Sherman_Firefly",
+      "nation": "uk",
+      "name": "Sherman VC Firefly",
+      "tier": 6,
+      "premium": true
+    },
+    {
+      "id": "GB73_AT2",
+      "nation": "uk",
+      "name": "AT 2",
+      "tier": 5,
+      "premium": false
+    },
+    {
+      "id": "R77_KV2",
+      "nation": "ussr",
+      "name": "KV-2",
+      "tier": 6,
+      "premium": false
+    },
+    {
+      "id": "R112_T54_45",
+      "nation": "ussr",
+      "name": "T-54",
+      "tier": 9,
+      "premium": true
+    },
+    {
+      "id": "F02_D1",
+      "nation": "france",
+      "name": "D1",
+      "tier": 1,
+      "premium": false
+    },
+    {
+      "id": "G139_MKA",
+      "nation": "germany",
+      "name": "MKA",
+      "tier": 2,
+      "premium": false
+    },
+    {
+      "id": "G89_Leopard1",
+      "nation": "germany",
+      "name": "Leopard 1",
+      "tier": 10,
+      "premium": false
+    },
+    {
+      "id": "J06_Ke_Ho",
+      "nation": "japan",
+      "name": "Type 5 Ke-Ho",
+      "tier": 4,
+      "premium": false
+    },
+    {
+      "id": "R146_STG",
+      "nation": "ussr",
+      "name": "STG",
+      "tier": 8,
+      "premium": false
+    },
+    {
+      "id": "Ch20_Type58",
+      "nation": "china",
+      "name": "Type 58",
+      "tier": 6,
+      "premium": false
+    },
+    {
+      "id": "Ch30_T-26G_FT",
+      "nation": "china",
+      "name": "T-26G FT",
+      "tier": 2,
+      "premium": false
+    },
+    {
+      "id": "A33_MTLS-1G14",
+      "nation": "usa",
+      "name": "MTLS-1G14",
+      "tier": 3,
+      "premium": false
+    },
+    {
+      "id": "Ch16_WZ_131",
+      "nation": "china",
+      "name": "WZ-131G FT",
+      "tier": 6,
+      "premium": false
+    },
+    {
+      "id": "Pl15_60TP_Lewandowskiego",
+      "nation": "poland",
+      "name": "60TP Lewandowskiego",
+      "tier": 10,
+      "premium": false
+    },
+    {
+      "id": "F69_AMX13_57_100_GrandFinal",
+      "nation": "france",
+      "name": "AMX 13 57 GF",
+      "tier": 7,
+      "premium": true
+    },
+    {
+      "id": "G16_PzVIB_Tiger_II_IGR",
+      "nation": "germany",
+      "name": "Tiger II",
+      "tier": 8,
+      "premium": false
+    },
+    {
+      "id": "F37_AMX50_Foch",
+      "nation": "france",
+      "name": "AMX 50 Foch",
+      "tier": 9,
+      "premium": false
+    },
+    {
+      "id": "Ch23_112",
+      "nation": "china",
+      "name": "112",
+      "tier": 8,
+      "premium": true
+    },
+    {
+      "id": "GB60_Covenanter",
+      "nation": "uk",
+      "name": "Covenanter",
+      "tier": 4,
+      "premium": false
+    },
+    {
+      "id": "F75_Char_de_25t",
+      "nation": "france",
+      "name": "Bat.-Châtillon 25 t",
+      "tier": 10,
+      "premium": false
+    },
+    {
+      "id": "J27_O_I_120",
+      "nation": "japan",
+      "name": "O-I Experimental",
+      "tier": 5,
+      "premium": false
+    },
+    {
+      "id": "R45_IS-7_IGR",
+      "nation": "ussr",
+      "name": "IS-7",
+      "tier": 10,
+      "premium": false
+    },
+    {
+      "id": "S02_Strv_M42",
+      "nation": "sweden",
+      "name": "Strv m/42-57 Alt A.2",
+      "tier": 6,
+      "premium": true
+    },
+    {
+      "id": "G113_SP_I_C",
+      "nation": "germany",
+      "name": "Spähpanzer SP I C",
+      "tier": 7,
+      "premium": false
+    },
+    {
+      "id": "S03_Strv_M38",
+      "nation": "sweden",
+      "name": "Strv m/38",
+      "tier": 2,
+      "premium": false
+    },
+    {
+      "id": "G77_PzIV_Schmalturm",
+      "nation": "germany",
+      "name": "Pz.Kpfw. IV Schmalturm",
+      "tier": 6,
+      "premium": true
+    },
+    {
+      "id": "It07_P26_40",
+      "nation": "italy",
+      "name": "P26/40",
+      "tier": 4,
+      "premium": false
+    },
+    {
+      "id": "S21_UDES_03",
+      "nation": "sweden",
+      "name": "UDES 03",
+      "tier": 8,
+      "premium": false
+    },
+    {
+      "id": "Pl14_4TP",
+      "nation": "poland",
+      "name": "4TP",
+      "tier": 1,
+      "premium": false
+    },
+    {
+      "id": "A116_XM551",
+      "nation": "usa",
+      "name": "XM551 Sheridan",
+      "tier": 10,
+      "premium": false
+    },
+    {
+      "id": "It09_P43_ter",
+      "nation": "italy",
+      "name": "P.43 ter",
+      "tier": 7,
+      "premium": false
+    },
+    {
+      "id": "F74_AMX_M4_1949_Liberte",
+      "nation": "france",
+      "name": "AMX M4 mle. 49 Liberté",
+      "tier": 8,
+      "premium": true
+    },
+    {
+      "id": "It04_Fiat_3000",
+      "nation": "italy",
+      "name": "Fiat 3000",
+      "tier": 1,
+      "premium": false
+    }
+  ]
+}

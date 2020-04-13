@@ -1,0 +1,5 @@
+export const FETCH_TANKS_START = "FETCH_TANKS_START";
+export const FETCH_TANKS_SUCCESS = "FETCH_TANKS_SUCCESS";
+export const FETCH_TANKS_FAIL = "FETCH_TANKS_FAIL";
+
+export const SET_TANK = "SET_TANK";
