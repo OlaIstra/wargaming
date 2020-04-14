@@ -1,92 +1,66 @@
-import { tanksReducer } from "./tanks";
+import { tanksReducer, initialState } from "./tanks";
 import * as actionTypes from "../actions/actionTypes";
+import { updateObject } from "../../shared/utils";
 
 describe("tanks reducer", () => {
   it("should return initial state", () => {
-    expect(tanksReducer(undefined, {})).toEqual({
-      tanks: [],
-      selectedTank: null,
-      loading: false,
-      error: null
-    });
+    expect(tanksReducer(initialState, {})).toEqual(
+      updateObject(initialState, {})
+    );
   });
 
   it("should start loading", () => {
-    expect(
-      tanksReducer(
-        {
-          tanks: [],
-          selectedTank: null,
-          loading: false,
-          error: null
-        },
-        { type: actionTypes.FETCH_TANKS_START, loading: true }
-      )
-    ).toEqual({
-      tanks: [],
-      selectedTank: null,
-      loading: true,
-      error: null
-    });
+    const action = {
+      type: actionTypes.FETCH_TANKS_START
+    };
+
+    expect(tanksReducer(initialState, action)).toEqual(
+      updateObject(initialState, { loading: true })
+    );
   });
 
   it("should store the array of tanks", () => {
+    const action = {
+      type: actionTypes.FETCH_TANKS_SUCCESS,
+      tanks: [1, 2, 3]
+    };
+
     expect(
       tanksReducer(
         {
-          tanks: [],
-          selectedTank: null,
-          loading: false,
-          error: null
+          ...initialState,
+          loading: true
         },
-        { type: actionTypes.FETCH_TANKS_SUCCESS, tanks: [1, 2, 3] }
+        action
       )
-    ).toEqual({
-      tanks: [1, 2, 3],
-      selectedTank: null,
-      loading: false,
-      error: null
-    });
+    ).toEqual(updateObject(initialState, { tanks: [1, 2, 3] }));
   });
 
   it("should store error", () => {
+    const action = {
+      type: actionTypes.FETCH_TANKS_FAIL,
+      error: "error"
+    };
     expect(
       tanksReducer(
         {
-          tanks: [],
-          selectedTank: null,
-          loading: false,
-          error: null
+          ...initialState,
+          loading: true
         },
-        { type: actionTypes.FETCH_TANKS_FAIL, error: "error" }
+        action
       )
-    ).toEqual({
-      tanks: [],
-      selectedTank: null,
-      loading: false,
-      error: "error"
-    });
+    ).toEqual(updateObject(initialState, { error: "error" }));
   });
 
   it("should store the selected tank", () => {
-    expect(
-      tanksReducer(
-        {
-          tanks: [],
-          selectedTank: null,
-          loading: false,
-          error: null
-        },
-        {
-          type: actionTypes.SET_TANK,
-          selectedTank: { name: "tank", country: "uk" }
-        }
-      )
-    ).toEqual({
-      tanks: [],
-      selectedTank: { name: "tank", country: "uk" },
-      loading: false,
-      error: null
-    });
+    const action = {
+      type: actionTypes.SET_TANK,
+      selectedTank: { name: "tank", country: "uk" }
+    };
+    expect(tanksReducer(initialState, action)).toEqual(
+      updateObject(initialState, {
+        selectedTank: { name: "tank", country: "uk" }
+      })
+    );
   });
 });
