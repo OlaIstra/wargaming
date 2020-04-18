@@ -59,14 +59,8 @@ const Main = props => {
 
   const nationFilter = selectedOption => {
     if (!!selectedOption) {
-      let filter = [];
-
-      selectedOption.forEach(elem => {
-        filter.push(elem.value);
-      });
-
       filters = updateObject(filters, {
-        nations: filter
+        nations: selectedOption.map(elem => elem.value),
       });
     } else {
       filters = updateObject(filters, {
